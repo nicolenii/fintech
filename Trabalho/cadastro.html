@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="cadastro.css">
+
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center">
+        <h1 class="cadastro">Faça seu cadastro :)</h1>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <img src="./img/logo2.png" alt="logo de fundo" class="logo">
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <form class="formulario-principal">
+            <input class="formulario__item" id="item__nome" type="text" name="Nome" placeholder="Nome">
+
+            <input class="formulario__item" type="text" name="Sobrenome" placeholder="Sobrenome">
+
+            <input class="formulario__item" type="number" name="CPF" placeholder="CPF">
+
+            <input class="formulario__item" type="email" name="E-mail" placeholder="E-mail">
+
+            <input class="formulario__item" id="item__tel" type="tel" name="Telefone" placeholder="Telefone">
+        </form>
+    </div>
+    
+    <div class="d-flex justify-content-center align-items-center">
+        <form class="formulario-checkbox"> 
+            <label for="termos"><input class="checkbox" type="checkbox" name="termos de uso"> Li e concordo com os <strong>termos de uso</strong> de uso da GUIANIC *</label>
+            
+            <label for="novidades"><input class="checkbox" type="checkbox" name="novidades"> Receber promoções, ofertas e novidades por e-mail e SMS</label>
+        </form>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <button class="botao__finalizar">Finalizar cadastro</button>
+    </div>
+
+</body>
+</html>

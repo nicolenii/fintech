@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(214, 179, 236);
+    font-family: 'Fredoka One', cursive;
+}
+
+.logo {
+    width: 30vh;
+    margin-top: 30%;
+}
+
+.botao__login {
+    width: 60%;
+    height: 6rem;
+    margin-top: 7rem;
+
+    border: none;
+    border-radius: 45px;
+    background-color: #901AB9;
+    color: rgb(194, 128, 241);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.botao__esqueceu-sua-senha {
+    font-size: 40px;
+    text-decoration: underline;
+
+    color: rgb(151, 37, 226);
+}
+
+.botao__cadastre-se {
+    margin-top: 5rem;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30%;
+
+    color: rgb(171, 103, 219);
+}

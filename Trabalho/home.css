@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(214, 179, 236);
+    font-family: 'Fredoka One', cursive;
+}
+
+.container__principal {
+    background-color: rgb(240, 238, 238);
+    border-radius: 40px;
+    margin: 2%;
+    padding: 1rem;
+ }
+
+.icone__container {
+    margin: 4rem;
+}
+
+.lista__items {
+    list-style: none;
+    font-size: 60px;
+    color: rgb(190, 137, 223);
+}
+
+.icone__botao {
+    margin: 5rem 0;
+    width: 10vh;
+}
+
+.container__secundario {
+    background-color: rgb(190, 137, 223);
+    border: 3px solid rgb(143, 15, 223);
+    border-radius: 40px;
+    margin: 2%;
+ }
+
+.titulo__container-secundario {
+    margin: 3rem;
+    color: rgb(143, 15, 223);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.valores__container-secundario {
+    margin: 3rem 1rem 3rem 5rem;
+    color: rgb(143, 15, 223);
+}
+
+.icone__valores {
+    padding: 0;
+}
+
+.descricao__valores {
+    font-size: 40px;
+    font-weight: bold;
+}
